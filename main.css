@@ -7,10 +7,11 @@
 
 body {
     height: 100vh;
-    background: url(mazegame.jpg);
+    background: url(background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    color: whitesmoke;
 }
 /*body img{
     height: 100%;
@@ -46,12 +47,8 @@ header ul li:hover{
     color: #000;
 }
 
-header ul li:nth-child(1){
-    border-top: 4px solid #F4A460;
-}
-
 main {
-    height: calc(100vh - 60px);
+    /*height: calc(100vh - 60px);*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,40 +56,34 @@ main {
 }
 
 main p{
+    margin-top: 25px;
     width: 700px;
     height: 80px;
-    line-height: 80px;
-    text-align: center;
-    font-size: 50px;
-    background-color: #000;
+    font-size: 21px;
     color: white;
-    border-radius: 20px;
+    text-align: justify;
 }
 
-main button{
-    width: 250px;
-    height: 60px;
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    margin-top: 270px;
-    font-size: 30px;
-    background: linear-gradient(#BC8F8F,#F4A460);/*
-    background-color: ;*/
-    cursor: pointer;
-}
-
-main button:hover{
-    transform: translateY(5px);
-    transition: 0.2s;
+main p:nth-child(2){
+    margin-top: 200px;
 }
 
 a:link,
 a:visited {
-    color: #5d6063;
+    color: white;
     text-decoration: none;
 }
 
 a{
     text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+main address {
+    margin-top: 300px;
+    text-align: center;
+    justify-content: center;
 }

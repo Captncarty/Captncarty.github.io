@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/captncarty/Desktop/Captncarty.github.io",
+      "program": "/Users/captncarty/Desktop/Captncarty.github.io/build/Debug/outDebug"
+    }
+  ]
+}
